@@ -28,6 +28,15 @@
             max-height: 600px;
         }
 
+         /* Center the h1 text */
+        .chat-container h1 {
+            text-align: center;
+            font-size: 30px;
+            margin: 15px 0;
+            font-weight: bold;
+            color: #333;
+        }
+
         #chat-log {
             flex: 1;
             padding: 15px;
@@ -102,6 +111,8 @@
 </head>
 <body>
 <div class="chat-container">
+    <!-- Centered H1 heading -->
+    <h1>Chat Room</h1>
     <textarea id="chat-log" cols="100" rows="20" readonly></textarea>
     <div class="chat-input">
         <input id="chat-message-input" type="text" placeholder="Type your message...">
